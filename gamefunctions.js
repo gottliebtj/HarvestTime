@@ -29,12 +29,21 @@ function startModule () {
       fieldHighlighter.style.backgroundColor = 'white'
       infoPanelText.innerHTML = 'Each year, a normal field will produce three units of crop as seen below.'
       timesClicked++
-      spawnCrops()
+      spawnCrops(3)
     }
   }
 }
 
 
 function spawnCrops (numCrops) {
-
+  var handcontainer = document.getElementById('handcontainer')
+  for (var i = 0; i < numCrops; i++) {
+    var container = document.createElement('div')
+    var image = document.createElement('img')
+    var card = document.createElement('div')
+    card.class = 'w3-card-4'
+    container.class = 'w3-container w3-center'
+    card.appendChild(container)
+    handcontainer.appendChild(card)
+  }
 }
