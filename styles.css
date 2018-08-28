@@ -1,0 +1,42 @@
+#gameContainer{
+    padding: 0;
+    border: solid;
+    margin: auto;
+    display: block;
+    width: 800px;
+    height: 600px;
+}
+h1, h3 {
+    text-align: center;
+}
+#field{
+  
+  border: solid;
+  margin: auto;
+  background-color: green;
+  margin-top: 150px;
+  width: 50%;
+
+}
+#nextButton{
+  margin-right:600px;
+}
+#fieldcontainer{
+  text-align: center;
+  margin:auto;
+  align-items: center;
+  width: 50%;
+}
+#infoPanel{
+  border: blue dashed;
+  padding: 10px;
+  font-family: fantasy;
+
+}
+#startbutton{
+  margin: auto;
+  padding: 50px;
+  width: 350px;
+  margin-top: 175px;
+  font-size: 33px;
+}
