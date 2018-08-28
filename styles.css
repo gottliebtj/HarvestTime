@@ -10,7 +10,7 @@ h1, h3 {
     text-align: center;
 }
 #field{
-  
+
   border: solid;
   margin: auto;
   background-color: green;
@@ -39,4 +39,8 @@ h1, h3 {
   width: 350px;
   margin-top: 175px;
   font-size: 33px;
+}
+
+#handcontainer{
+  display: block;
 }
