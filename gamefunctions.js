@@ -29,7 +29,7 @@ function startModule () {
       fieldHighlighter.style.backgroundColor = 'white'
       infoPanelText.innerHTML = 'Each year, a normal field will produce three units of crop as seen below.'
       timesClicked++
-      spawnCrops(6)
+      spawnCrops(12)
     }
   }
 }
