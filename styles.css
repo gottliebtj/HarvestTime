@@ -4,33 +4,26 @@
     margin: auto;
     display: block;
     width: 800px;
-    height: 600px;
+    height: 800px;
 }
 h1, h3 {
     text-align: center;
 }
-#field{
 
-  border: solid;
-  margin: auto;
-  background-color: green;
-  margin-top: 150px;
-  width: 50%;
-
-}
 #nextButton{
   margin-right:600px;
 }
 #fieldcontainer{
-  text-align: center;
   margin:auto;
-  align-items: center;
-  width: 50%;
+}
+#field{
+  height: 300px;
+  width: 400px
 }
 #infoPanel{
   border: blue dashed;
   padding: 10px;
-  font-family: fantasy;
+  height: 75px;
 
 }
 #startbutton{
@@ -43,4 +36,20 @@ h1, h3 {
 
 #handcontainer{
   margin-top: 50px
+}
+@keyframes blinking {
+    from {background-color: white;}
+    to {background-color: gold;}
+}
+@keyframes blinkingOff {zz
+    from {background-color: transparent;}
+    to {background-color: transparent;}
+}
+
+@keyframes fadeOut {
+    0%   {opacity: 100%}
+    25%  {opacity: 80%}
+    50%  {opacity: 60%}
+    75%  {opacity: 25%}
+    100% {opacity: 0%}
 }
